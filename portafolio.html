@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilog.css">
+    <link rel="icon" href="assets/img/logo2.png" type="image/png" sizes="16x16">
+    <title>Document</title>
+</head>
+<body>
+    <!-- navegador de pagina-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
+        <div class="col-2 d-flex align-items-center justify-content-center">
+            <a href="index.html"><h5 class="logo">D / M <br> DANIX MULTIMEDIA</h5></a>
+        </div>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav" style="text-align: center;">
+                  <a class="nav-item nav-link" href="index.html">Inicio</a>
+                  <a class="nav-item nav-link" href="sobre_mi.html">Sobre Mí</a>
+                  <a class="nav-item nav-link" href="servicios.html">Servicios</a>
+                  <a class="nav-item nav-link disabled" href="#">Portafolio <span class="sr-only">(actual)</span></a>
+                </div>
+            </div>
+        <div class="col-2"></div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+      </nav>
+
+      <section class="col-12 sectiong container">
+          <h1 class="titulo">Fotografías</h1>
+           <div class="container">
+                <div class="row mt-4">
+                    <div class="item col-sm-6 col-md-4 mb-3">
+                        <div class="contenedorh">
+                            <a href="#img1" class="fancybox" data-fancy-box="gallery1">
+                                <img src="assets/img/portafolio/1.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item col-sm-6 col-md-4 mb-3">
+                        <div class="contenedorh">
+                            <a href="#img2" class="fancybox" data-fancy-box="gallery1">
+                                <img src="assets/img/portafolio/2.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item col-sm-6 col-md-4 mb-3">
+                        <div class="contenedorh">
+                            <a href="#img3" class="fancybox" data-fancy-box="gallery1">
+                                <img src="assets/img/portafolio/3.jpeg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+           </div>
+           <!--Modal-->
+            <div class="modal" id="img1">
+                <h3>Butterfly Light</h3>
+                <div class="imagen">
+                    <a href="">&nbsp;</a>
+                    <img src="assets/img/portafolio/1.jpg">
+                    <a href="#img2">></a>
+                </div>
+                <a class="cerrar" href="">X</a>
+            </div>
+
+            <div class="modal" id="img2">
+                <h3>Look de Belleza</h3>
+                <div class="imagen">
+                    <a href="#img">&#60;</a>
+                    <img src="assets/img/portafolio/2.jpg">
+                    <a href="#img3">></a>
+                </div>
+                <a class="cerrar" href="">x</a>
+            </div>
+
+            <div class="modal" id="img3">
+                <h3>Ejercicio de Iluminación</h3>
+                <div class="imagen">
+                    <a href="#img2">&#60;</a>
+                    <img src="assets/img/portafolio/3.jpeg">
+                    <a href="#img4">></a>
+                </div>
+                <a class="cerrar" href="">x</a>
+            </div>
+            <!--sección de Comunicación Visual-->
+           <h1 class="titulo">Comunicación Visual</h1>
+           <div class="container">
+                <div class="row mt-4">
+                    <div class="item col-sm-6 col-md-4 mb-3">
+                        <a href="assets/img/logo.png" class="fancybox" data-fancy-box="gallery1">
+                            <img src="assets/img/logo.png" width="100%" height="100%">
+                        </a>
+                    </div>
+                    <div class="item col-sm-6 col-md-4 mb-3">
+                        <a href="assets/img/logo.png" class="fancybox" data-fancy-box="gallery1">
+                            <img src="assets/img/logo.png" width="100%" height="100%">
+                        </a>
+                    </div>
+                    <div class="item col-sm-6 col-md-4 mb-3">
+                        <a href="assets/img/logo.png" class="fancybox" data-fancy-box="gallery1">
+                            <img src="assets/img/logo.png" width="100%" height="100%">
+                        </a>
+                    </div>
+                </div>
+           </div>
+           <!--sección de documentos-->
+           <h1 class="titulo">Documentos</h1>
+           <div class="container">
+                <div class="row mt-4">
+                    <div class="item col-sm-6 col-md-4 mb-3">
+                        <a href="assets/img/logo.png" class="fancybox" data-fancy-box="gallery1">
+                            <a href="assets/documents/manual corporativo.pdf" class="color">
+                                <figure>
+                                    <img src="assets/img/portafolio/pdf.jpg" width="100%" height="100%"><figcaption><h1>Portafolio</h1></figcaption>
+                                </figure>
+                            </a>
+                        </a>
+                    </div>
+                </div>
+           </div>
+      </section>
+
+      <!--Pie de pagina-->
+      <footer>
+        <div class="container d-flex align-items-center justify-content-center">
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <h3 class="textc">HORARIO DE ATENCIÓN</h3>
+                    <p class="textc">Lunes a viernes de 8pm - 10pm</p>
+                    <h4 class="textc">DISEÑO WEB<br><br>DISEÑO GRAFICO<br><br>COMUNICACIÓN VISUAL</h4>
+                </div>
+                <div class="col-md-6 col-12 ">
+                    <div class="row ">
+                            <div class="col-12 d-flex justify-content-center"><h3>Contáctame</h5></div>
+                            <div class="col-12 d-flex justify-content-center"><p>danielfelifesuanca@gmail.com</p></div>
+                            <div class="col-12 d-flex justify-content-center"><a href="https://www.facebook.com/daniistiven.cubillos/"><p>Facebook</p></a></div>
+                            <div class="col-12 d-flex justify-content-center"><a href="https://twitter.com/danielr25974189"><p>Twitter</p></a></div>
+                            <div class="col-12 d-flex justify-content-center"><a href="https://www.instagram.com/danii_stiven__/"><p>Instagram</p></a></div>
+                            <div class="col-12 d-flex justify-content-center"><p>+57 310 2650688</p></div>
+                        </div>
+                </div>
+                <div class="col-md-12 col-12 bordef" style="padding-top: 20px;"></div>
+                <div class="col-md-12 col-12" style="padding-top: 20px;"><p>Copyright © DANIX MULTIMEDIA 2021-2022</p></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>  
+</body>
+</html>

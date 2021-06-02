@@ -1,0 +1,216 @@
+@font-face {
+    font-family: "MELLIZA-FONT";
+    src: url(assets/fonts/Mellisa\ FREE.ttf);
+
+}
+@font-face {
+    font-family: "coolvetica";
+    src: url(assets/fonts/coolvetica\ rg.ttf);
+
+}
+*{
+    font-family: "coolvetica";
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #EAEDED;
+}
+div a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+
+    margin-left: 20px;
+    font-family: "MELLIZA-FONT";
+    color: rgb(255, 0, 0);
+    text-align: center;
+
+}
+/*banner*/
+.banner{
+    margin-top: 4rem;
+    background-image: url("assets/img/banner.jpg");
+    width: 100%;
+    height: 550px;
+    text-align: center;
+}
+.bannerc{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
+.logon{
+
+    font-family: "MELLIZA-FONT";
+    color: #fff;
+    text-align: center;
+
+}
+/*Segunda caja*/
+.contenedorc
+{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+.conntenedorsc
+{
+    margin-top: 2rem;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(196, 11, 11);
+    color: white;
+}
+/*2 - 4 banner*/
+.banner2{
+    margin-top: 2rem;
+    background-image: url("assets/img/banner2.jpg");
+    width: 100%;
+    height: 550px;
+    text-align: center;
+}
+.banner3{
+    margin-top: 2rem;
+    background-image: url("assets/img/banner3.jpg");
+    width: 100%;
+    height: 550px;
+    text-align: center;
+}
+.banner4{
+    margin-top: 2rem;
+    background-image: url("assets/img/banner4.jpg");
+    width: 100%;
+    height: 550px;
+    text-align: center;
+}
+/*botones de saber mas*/
+.mas
+{
+    background-color: rgba(255, 0, 0, 0.6);
+    border:none;
+    border-radius: 30px;
+    width: 200px;
+    height: 60px;
+    color: white;
+}
+.mas:hover
+{
+    transition: 0.3s;
+    background-color: rgb(196, 11, 11);
+}
+/*Utilizaremos esto para el pie de pagina*/
+footer{
+    margin-top: 2rem;
+    background-color: #ac3030; 
+    color: #fff; 
+    padding-top: 30px;
+}
+.bordef{
+    border-bottom: 1px  solid #fff;
+}
+/*Utilizaremos esto para centrar los textos*/
+.textc{
+    text-align: center;
+}
+/*Utilizaremos esto para genera*/
+.sectiong{
+    margin-top: 6rem;
+}
+.item{
+    transition: .5s ease-in-out;  
+}
+.item:hover{
+    filter: brightness(80%);
+
+}
+/*Utilizaremos esto para los servicios*/
+.item2{
+    transition: .5s ease-in-out;  
+}
+/*Utilizaremos esto para contenedores de galeria*/
+.contenedorh{
+    width: 100%;
+    height: 290px;
+}
+.contenedorh img{
+    object-fit: cover;
+    width: 100%;
+    height: 290px;
+}
+/*Utilizaremos para lso titulos*/
+.titulo{
+    color: rgb(196, 11, 11);
+}
+/*Utilizaremos para el modal de galeria*/
+.modal{
+    display: none;
+}
+.modal:target{
+    display: block;
+    position: fixed;
+    background-color: rgba(0,0,0,0.8);
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.modal h3{
+    color: rgb(196, 11, 11);
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 0;
+}
+.imagen{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen a{
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 0 20px;
+}
+.imagen a:nth-child(2){
+    margin: 0;
+    height: 100%;
+    flex-shrink: 2;
+}
+.imagen img{
+    width: 500px;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    border: 7px solid;
+}
+.cerrar{
+    display: block;
+    background-color: rgb(196, 11, 11);
+    width: 25px;
+    height: 25px;
+    margin: 15px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+
+    border-radius: 50%;
+    line-height: 25px;
+
+}
+a figcaption {
+    background-color: crimson;
+}
+a figcaption h1{
+    text-align: center;
+}
+.color:hover{
+    transition: 0.3s;
+    color: darkred;
+}
